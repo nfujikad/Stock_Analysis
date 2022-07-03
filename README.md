@@ -5,12 +5,12 @@ Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://gith
 ## Overview of Project 
 
 ### Purpose
--This challenge was to refactor the VBA code for Microsoft Excel and utilize this to run over stocks from 2017 and 2018. In doing so we could determine whether any of these stocks are worth investing in. The refactoring was done to create a fluid and more efficient process.
+-   This challenge was to refactor the VBA code for Microsoft Excel and utilize this to run over stocks from 2017 and 2018. In doing so we could determine whether any of these stocks are worth investing in. The refactoring was done to create a fluid and more efficient process.
 
 ## Results
 
 ### Analysis
--The analysis was conducted on 12 different stocks in 2017 and 2018 for comparison. The overall goal was to separate and sum the tickers (stocks), the total daily volume, and the return for each stock respective to its year. 
+-   The analysis was conducted on 12 different stocks in 2017 and 2018 for comparison. The overall goal was to separate and sum the tickers (stocks), the total daily volume, and the return for each stock respective to its year. 
 The following is the code displays how variables and array were created and for loops used to separate/sum up the individual tickers and corresponding data.
 
     '1a) Create a ticker Index
@@ -68,9 +68,9 @@ The following is the code displays how variables and array were created and for 
 
 ### What are advantages and disadvantages of refactoring code?
 
--The refactoring allowed run time to decrease significantly. Typically, what would originally take at least a second now only takes a fraction of the time. Below is shown the run time for the 2018 refactored analysis.
+-   The refactoring allowed run time to decrease significantly. Typically, what would originally take at least a second now only takes a fraction of the time. Below is shown the run time for the 2018 refactored analysis.
 
 ![VBA 2017 Screenshot]( https://github.com/nfujikad/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 ### How do these pros and cons apply to refactoring the original VBA script?
--Refactoring allows us to clean our data and create a template for similar cases rather than being repetitive. In the end the goal is to be efficient with time and by starting with an organized canvas we can easily troubleshoot and improve code as needed. Additionally, this allows for collaborative work to work faster and smoother. On the other hand, this may not be the best route for those who need quick answers. Refactoring takes time and attention to detail which may not be ideal for someone who only needs to run this code once for a quick answer. This is better suited for those who must frequently run the same analysis.
+-   Refactoring allows us to clean our data and create a template for similar cases rather than being repetitive. In the end the goal is to be efficient with time and by starting with an organized canvas we can easily troubleshoot and improve code as needed. Additionally, this allows for collaborative work to work faster and smoother. On the other hand, this may not be the best route for those who need quick answers. Refactoring takes time and attention to detail which may not be ideal for someone who only needs to run this code once for a quick answer. This is better suited for those who must frequently run the same analysis.
